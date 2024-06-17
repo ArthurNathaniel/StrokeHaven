@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Eudoxus';
+}
+@font-face {
+    font-family: 'Eudoxus';
+    src: url('./Eudoxus.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Eudoxus', sans-serif;
+}
+
+.header{
+    padding-block: 35px;
+    border: 1px solid #ddd;
+}
+
+.header p{
+    text-align: center;
+    color: #0b8659;
+    font-weight: 600;
+}
+
+.header span{
+   padding: 0 15px;
+    padding-block: 10px;
+    background-color: #0b8659;
+    color: #fff;
+
+}
+
+
+
